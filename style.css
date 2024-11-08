@@ -1,0 +1,145 @@
+@media (max-width: 1300px) {
+  * {
+    font-size: 2.5vh;
+  }
+}
+*{
+  background-color: #f4f4f4;
+  filter: 30%;
+}
+body{
+  margin:0px;
+}
+#pagelogo{
+  display: block;
+  width: 10em;
+  margin-left:auto;
+  margin-right: auto;
+  margin-top: 17em;
+  
+}
+header{
+  border:3px solid blue;
+  height: 4rem;
+  border-top: 0px ;
+  border-left: 0px;
+  border-right: 0px;
+  position: static;
+  width: 100%;
+}
+
+.head1{
+  border:1px solid blue;
+  height: 4rem;
+  width: 23em;
+  border-top: 0px ;
+  border-left: 0px;
+  border-right: 0px;
+  position: fixed;
+}
+#logo{
+  display: block;
+  width: 4rem;
+  margin: 0px 0px auto;
+  float: left;
+}
+button{
+  height: 3em;
+  width: 5em;
+}
+
+.dropdown button{
+  background-color: none;
+  padding: 10px 15px;
+  border: 1px solid gray;
+  color: black;
+}
+
+.dropdown {
+            position: relative;
+            float: right;
+            padding-right: 2em;
+            padding-top: 0.5em;
+            
+        }
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            right: 50px;
+            background-color: white;
+            padding: 10px;
+            border-radius: 20px;
+            color: black;
+        }
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+        .dropdown-content a {
+            color: black;
+            padding:10px 15px;
+            text-decoration: none;
+            background-color: transparent;
+            display: block;
+            border-radius: 10px;
+            margin-top: 10%;
+            border: 1px solid grey;
+        }
+        .dropdown-content a:hover {
+            background-color: blue;
+            color: white;
+        }
+.welcome{
+  border: 0px solid;
+  width: 14em;
+  height: 7em;
+  text-align: center;
+  margin-left:45px ;
+  margin-right: 45px;
+  margin-bottom: 0px;
+}
+
+#H2{
+  font-family: Georgia;
+  font-size: 30px;
+  color: #017ed1;
+  text-align: center;
+  margin-top: 1.5em;
+  margin-bottom: 0px;
+}
+
+#learn{
+  border: 0px solid ;
+  display: block;
+  width: 20rem;
+  border-radius: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+p{
+  text-align: center;
+  color: black;
+  margin-top: 0px;
+  font-family: Georgia;
+  padding-top:0px ;
+}
+#explore{
+  border: none;
+  background: #0099ff;
+  width: 12em;
+  height: 3em;
+  border-radius: 30px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 3em;
+  font-size: 0.9em;
+}
+#explore:hover {
+  background: #017ed1;
+}
+#explore a {
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+}
