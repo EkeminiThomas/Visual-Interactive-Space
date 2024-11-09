@@ -31,7 +31,7 @@ header{
 .head1{
   border:1px solid blue;
   height: 4rem;
-  width: 23em;
+  width: 100%;
   border-top: 0px ;
   border-left: 0px;
   border-right: 0px;
